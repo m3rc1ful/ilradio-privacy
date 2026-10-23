@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Israeli Radio - foreground media playback demo</title>
+<style>
+  body { margin: 0; padding: 24px 16px; background: #0d0d0f; color: #e8e8ee; font-family: system-ui, sans-serif; text-align: center; }
+  video { width: 100%; max-width: 960px; background: #000; }
+  p { max-width: 760px; margin: 16px auto; line-height: 1.5; color: #b8b8c4; }
+</style>
+</head>
+<body>
+  <h1>Israeli Radio: foreground media playback demo</h1>
+  <video controls preload="metadata" src="foreground-service.mp4"></video>
+  <p>The app streams live radio through a foreground media service (FOREGROUND_SERVICE_MEDIA_PLAYBACK), so audio keeps playing while the app is in the background.</p>
+</body>
+</html>
